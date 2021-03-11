@@ -37,7 +37,7 @@ Not to popular scaler.
 It sets the median of your feauters/targets to 0 and scales according to the quardile range.
 
 > scaler = RobustScaler() <br>
-​> scaler.fit(X_train) <br>
+> scaler.fit(X_train) <br>
 > X_train = scaler.transform(X_train) <br>
 > X_test = scaler.transform(X_test) <br>
 
