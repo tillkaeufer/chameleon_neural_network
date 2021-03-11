@@ -18,5 +18,5 @@ The y arrays have all SED data. One SED consists of 57 flux messurments at diffe
 
 [Here you can see how y_train[0] looks like.](../../images/output_0.png) 
 
-The wavelength for every SED point are given in position.npy. (This is not needed for the training, but maybe later during the analysis.
+The wavelength for every SED point are given in position.npy.This is not needed for the training, but maybe later during the analysis.
 
