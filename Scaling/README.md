@@ -14,28 +14,21 @@ lets assume your data is called X_train/X_test and y_train/y_test
 ## StandardScaler
 
 This is the most popular scaler.
-
 It sets the mean of your feauters/targets to 0 and the standard deviation to 1.
 
-> scaler = StandardScaler() 
->
-> scaler.fit(X_train) 
->
-> X_train = scaler.transform(X_train) 
->
-> X_test = scaler.transform(X_test) 
+> scaler = StandardScaler() <br>
+> scaler.fit(X_train) <br>
+> X_train = scaler.transform(X_train) <br>
+> X_test = scaler.transform(X_test) <br>
 
 ## MinMaxScaler
 
 This sets the lowest value of every feature/target to 0 and the highest value to 1.
 
-> scaler = MinMaxScaler() 
->
-> scaler.fit(X_train)
->
-> X_train = scaler.transform(X_train)
->
-> X_test = scaler.transform(X_test)
+> scaler = MinMaxScaler() <br>
+> scaler.fit(X_train) <br>
+> X_train = scaler.transform(X_train) <br>
+> X_test = scaler.transform(X_test) <br>
 
 ## RobustScaler
 
@@ -43,12 +36,9 @@ Not to popular scaler.
 
 It sets the median of your feauters/targets to 0 and scales according to the quardile range.
 
-> scaler = RboustScaler() 
->
-​> scaler.fit(X_train) 
->
-> X_train = scaler.transform(X_train) 
->
-> X_test = scaler.transform(X_test) 
+> scaler = RobustScaler() <br>
+​> scaler.fit(X_train) <br>
+> X_train = scaler.transform(X_train) <br>
+> X_test = scaler.transform(X_test) <br>
 
 
