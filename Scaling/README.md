@@ -42,7 +42,7 @@ Not to popular scaler.
 
 It sets the median of your feauters/targets to 0 and scales according to the quardile range
 
->scaler = RboustScaler() 
+> scaler = RboustScaler() 
 >
 ​> scaler.fit(X_train) #searching for the mean and std
 >
