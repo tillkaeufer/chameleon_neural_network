@@ -41,4 +41,11 @@ It sets the median of your feauters/targets to 0 and scales according to the qua
 > X_train = scaler.transform(X_train) <br>
 > X_test = scaler.transform(X_test) <br>
 
+# Inverse Scaling
 
+If you have scaled your data, used the algorithm, and got some predictions, you might want to scale everything back into the original space.
+This can be done by:
+
+> X_train = scaler.inverse_transform(X_train)
+
+Be careful to that 'scaler' is actually the right scaler. Therefore it is good to give for scaler for the features another name than the target scaler.
