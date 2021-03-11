@@ -10,13 +10,13 @@ They are (Parameter : Number):'Teff[K]':0, 'Lstar[Lsun]':1, 'fUV':2, 'Mdust[Msun
 
 For some of them a logarithmic scale was applied.
 There are more parameters that describe a model in general, but these are the parameters that vary within the data.  
-Below you can see how X_train[0] looks like.
-[IMG input](../../images/input_0.png) 
+
+[Here you can see how X_train[0] looks like.](../../images/input_0.png) 
 
 MCFOST was run with these parameters as input and produced SEDs as output.
 The y arrays have all SED data. One SED consists of 57 flux messurments at different wavelength.  
-Below you can see how y_train[0] looks like.
-[IMG input](../../images/output_0.png) 
+
+[Here you can see how y_train[0] looks like.](../../images/output_0.png) 
 
 The wavelength for every SED point are given in position.npy. (This is not needed for the training, but maybe later during the analysis.
 
