@@ -5,6 +5,14 @@ This Repository gives all data and information that are needed to partizipate in
 
 Here we have to list all packages, Jupyter notebook, python3 ...
 
+- Python 3
+- Jupyter Notebook
+- SKlearn
+- Keras/Tensorflow
+- numpy
+- matplotlib
+- corner
+
 ## How this will work
 
 
