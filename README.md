@@ -3,19 +3,29 @@ This Repository gives all data and information that are needed to partizipate in
 
 ## Things to install before the session
 
-Here we have to list all packages, Jupyter notebook, python3 ...
+Please install the following things before the session.
 
 - Python 3
 - Jupyter Notebook
-- SKlearn
-- Keras/Tensorflow
-- numpy
-- matplotlib
-- corner
+For doing so, the easiest way is to create an anaconda environment: </br>
+https://www.anaconda.com/products/individual
+If you have problems, please contact us.
+
+Also, the following packages are needed:
+- SKlearn: conda install scikit-learn
+- Keras/Tensorflow: conda install tensorflow
+- numpy: conda install numpy
+- matplotlib: conda install matplotlib
+- corner: conda install -c conda-forge corner
 
 ## How this will work
-
-
+We prepared two different problems, which can be solved using Machine Learning.
+First problem:
+Extracting exoplanet parameters using spectra.
+...
+Seconda problem:
+Emulating SED modelling of protoplanetary disks.
+...
 ## How to start
 
 - Decide on  a dataset you want to anaylze.
