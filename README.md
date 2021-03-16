@@ -8,7 +8,7 @@ Please install the following things before the session.
 - Python 3
 - Jupyter Notebook
 For doing so, the easiest way is to create an anaconda environment: </br>
-https://www.anaconda.com/products/individual
+https://www.anaconda.com/products/individual </br>
 If you have problems, please contact us.
 
 Also, the following packages are needed:
