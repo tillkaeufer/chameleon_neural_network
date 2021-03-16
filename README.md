@@ -6,7 +6,7 @@ This Repository gives all data and information that are needed to partizipate in
 Please install the following things before the session.
 
 - Python 3
-- Jupyter Notebook
+- Jupyter Notebook </br>
 For doing so, the easiest way is to create an anaconda environment: </br>
 https://www.anaconda.com/products/individual </br>
 If you have problems, please contact us.
@@ -19,13 +19,14 @@ Also, the following packages are needed:
 - corner: conda install -c conda-forge corner
 
 ## How this will work
-We prepared two different problems, which can be solved using Machine Learning.
-First problem:
-Extracting exoplanet parameters using spectra.
-...
-Seconda problem:
-Emulating SED modelling of protoplanetary disks.
-...
+We prepared two different problems, which can be solved using Machine Learning. </br>
+First problem:</br>
+Extracting exoplanet parameters using spectra.</br>
+... </br>
+Seconda problem: </br>
+Emulating SED modelling of protoplanetary disks. </br>
+... </br>
+
 ## How to start
 
 - Decide on  a dataset you want to anaylze.
