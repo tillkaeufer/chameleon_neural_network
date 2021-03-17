@@ -1,4 +1,4 @@
-# CHAMELEON Hands-on Sessiion Neural Networks
+# CHAMELEON Hands-on Session Neural Networks
 This Repository gives all data and information that are needed to partizipate in the neural networks hands-on session of the first CHAMELEON school.
 
 # Things to install before the session
