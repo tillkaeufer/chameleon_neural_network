@@ -24,7 +24,7 @@ We prepared two different problems, which can be solved using Machine Learning. 
 First problem:</br>
 Extracting exoplanet parameters using spectra.</br>
 ... </br>
-Seconda problem: </br>
+Second problem: </br>
 Emulating SED modelling of protoplanetary disks. </br>
 ... </br>
 
