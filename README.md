@@ -83,7 +83,7 @@ If your network works and you get bored, try to solve your problem using a diffe
 We recomend Random Forest (a few hints can be found in the 'ML_techniques' folder), but you can also apply other methods. </br>
 A list of methods can be found here: https://scikit-learn.org/stable/supervised_learning.html </br>
 
-### 4: Visualization
+## 4: Visualization
 
 This point is hard to seperate from all previous steps. During the whole process you probably want to see what is going on. </br>
 This is espacialy important, to evaluate your results. Think of useful ways to evaluate the results and visualize them. If you need a bit of inspiration, in the folder 'Visualization' there are a few uselfool tools.
