@@ -6,10 +6,8 @@ This Repository gives all data and information that are needed to participate in
 Please install the following things before the session.
 
 - Python 3
-- Jupyter Notebook </br>
-For doing so, the easiest way is to create an anaconda environment: </br>
-https://www.anaconda.com/products/individual </br>
-If you have problems, please contact us.
+- Anaconda: this is the easiest way for all that is coming. If you don't have Anaconda already you can download it here: https://www.anaconda.com/products/individual </br>
+- Jupyter Notebook: conda install -c conda-forge notebook</br> 
 
 Also, the following packages are needed:
 - SKlearn: conda install scikit-learn
@@ -17,6 +15,8 @@ Also, the following packages are needed:
 - numpy: conda install numpy
 - matplotlib: conda install matplotlib
 - corner: conda install -c conda-forge corner
+
+Please contact us before the session if you have any problems. </br>
 
 # General Idea
 
