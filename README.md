@@ -23,7 +23,6 @@ Also, the following packages are needed:
 We prepared two different problems, which can be solved using Machine Learning. </br>
 
 First problem:</br>
-
 ### Extracting exoplanet parameters using spectra.</br>
 The goal here is to predict atmospheric parameters of exoplanets from their transmission spectra using machine learning.</br>
 You will be provided with a dataset containing synthetic HST/WFC3 transmission spectra of exoplanets and their corresponding parameters.</br>
@@ -32,10 +31,23 @@ The spectra consist of 13 wavelength bins between 0.8 and 1.6 microns, which mat
 This observation is also provided to retrieve on once your machine learning algorithms have been trained.</br>
 
 Second problem: </br>
-Emulating SED modelling of protoplanetary disks. </br>
-... </br>
+### Emulating SED modelling of protoplanetary disks. </br>
+The goal is to predict Spectral Energy distributions (SEDs) for protoplanetary disks based on disk parameters. </br>
+The conventional way of predicting SEDs is to run a modelling code (ProDiMo, MCFOST, ..) to simulate a disk and then calculating how the output would look like.</br>
+If you want to calculate a lot of SEDs this can take a lot of time. A potential solution for that problem is to train a Machine Learning algorithm to predict SEDs based on input parameters of disks. </br>
+For doing that the algorithm must be trained on a large dataset of models, where the SED and the input parameters are known. </br>
+This will be the DENT-grid (Kamp et al. 2011) in our case. </br> 
+A detailed description of the data can be found in the folder data. </br>
 
 
+### Questions to answer:
+- Is it possible to solve your problem with machine learning?
+- What is a good arcitectur/setting of your network?
+- What happens if you train for more iterations?
+- What happens if you use different scaler?
+- How does the size of your data set influence your results?
+- Can a Random Forest give better results?
+...
 
 # Steps
 - Decide on  a dataset you want to anaylze.
