@@ -1,5 +1,5 @@
 # CHAMELEON Hands-on Session Neural Networks
-This Repository gives all data and information that are needed to partizipate in the neural networks hands-on session of the first CHAMELEON school.
+This Repository gives all data and information that are needed to participate in the neural networks hands-on session of the first CHAMELEON school.
 
 # Things to install before the session
 
@@ -23,7 +23,11 @@ Also, the following packages are needed:
 We prepared two different problems, which can be solved using Machine Learning. </br>
 First problem:</br>
 Extracting exoplanet parameters using spectra.</br>
-... </br>
+The goal here is to predict atmospheric parameters of exoplanets from their transmission spectra using machine learning.
+You will be provided with a dataset containing synthetic HST/WFC3 transmission spectra of exoplanets and their corresponding parameters.
+The parameters defining the forward models are: isothermal temperature; H2O, HCN and NH3 mixing ratios; and a grey cloud opacity.
+The spectra consist of 13 wavelength bins between 0.8 and 1.6 microns, which match those of the WASP-12b observation in Kreidberg et al., 2015.
+This observational dataset is also provided to retrieve on once your machine learning algorithms have been trained.</br>
 Second problem: </br>
 Emulating SED modelling of protoplanetary disks. </br>
 ... </br>
