@@ -42,7 +42,7 @@ A detailed description of the data can be found in the folder data. </br>
 
 ### Questions to answer:
 - Is it possible to solve your problem with machine learning?
-- What is a good arcitectur/setting of your network?
+- What is a good architecture/setting of your network?
 - What happens if you train for more iterations?
 - What happens if you use different scaler?
 - How does the size of your data set influence your results?
@@ -50,13 +50,13 @@ A detailed description of the data can be found in the folder data. </br>
 ...
 
 # Steps
-- Decide on  a dataset you want to anaylze.
+- Decide on a dataset you want to analyse.
 - Set up a notebook 
 - Import the needed packages
-- Inport the data
+- Import the data
 - Scale your data
 - Import a ML technique and adjust it
-- Analyze the results
+- Analyse the results
 - Start playing with different settings and techniques to find the best results
 
 # Detailed Explanation
@@ -74,7 +74,7 @@ If you run into problems or want to check if you have done everything right, che
 
 Once you loaded the data you have to scale it. </br>
 In the folder 'Scaling' you find an explanation of different scaling methods and how to apply them.
-Feel free to play around and vizulize how your data is changing if you apply a scaler. </br>
+Feel free to play around and visualize how your data is changing if you apply a scaler. </br>
 Again, in the folder named after your problem you find a working example of scaling the data. </br>
 
 
@@ -87,24 +87,24 @@ We focus on Neural Networks in this session, but you can also run Random Forests
 
 Depending on your level of confidence you can take different approaches.
 - https://victorzhou.com/blog/keras-neural-network-tutorial/ </br>
-  This is a general tutorial how to build Neural Networks. Try to create your own network, which can solve your choosen problem. </br>
-  There are many different ways to do that, dissusing your approaches in your group or searching on the internet can help.</br>
-  We would recomend to use Keras, because all packages are installed on your environment. </br>
-- If you want to have a bit more support look into the folder for your problem. There you will find an example of a suitable NN for your problem
+  This is a general tutorial how to build Neural Networks. Try to create your own network, which can solve your chosen problem. </br>
+  There are many different ways to do that, discussing your approaches in your group or searching on the internet can help.</br>
+  We would recommend to use Keras, because all packages are installed on your environment. </br>
+- If you want to have a bit more support look into the folder for your problem. There you will find an example of a suitable NN for your problem.
 
 ### 3.2: Optimize your network
 
-If you have a working network you can change the different settings and have a look how your results change. Try to find the best network for your problem.
+If you have a working network, you can change the different settings and have a look how your results change. Try to find the best network for your problem.
 
 ### 3.3: Optional: Build/ train a Random Forest
 
 If your network works and you get bored, try to solve your problem using a different ML technique. </br>
-We recomend Random Forest (a few hints can be found in the 'ML_techniques' folder), but you can also apply other methods. </br>
+We recommend Random Forest (a few hints can be found in the 'ML_techniques' folder), but you can also apply other methods. </br>
 A list of methods can be found here: https://scikit-learn.org/stable/supervised_learning.html </br>
 
 ## 4: Visualization
 
-This point is hard to seperate from all previous steps. During the whole process you probably want to see what is going on. </br>
-This is espacialy important, to evaluate your results. Think of useful ways to evaluate the results and visualize them. If you need a bit of inspiration, in the folder 'Visualization' there are a few uselfool tools.
+This point is hard to separate from all previous steps. During the whole process you probably want to see what is going on. </br>
+This is especially important, to evaluate your results. Think of useful ways to evaluate the results and visualize them. If you need a bit of inspiration, in the folder 'Visualization' there are a few useful tools.
 
 
