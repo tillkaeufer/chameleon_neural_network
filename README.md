@@ -86,8 +86,9 @@ We focus on Neural Networks in this session, but you can also run Random Forests
 ### 3.1: Build/train a Neural Network
 
 Depending on your level of confidence you can take different approaches.
-- https://victorzhou.com/blog/keras-neural-network-tutorial/ </br>
-  This is a general tutorial how to build Neural Networks. Try to create your own network, which can solve your chosen problem. </br>
+- https://keras.io/guides/functional_api/ </br>
+  https://victorzhou.com/blog/keras-neural-network-tutorial/ </br>
+  These are two general tutorial how to build Neural Networks. Try to create your own network, which can solve your chosen problem. </br>
   There are many different ways to do that, discussing your approaches in your group or searching on the internet can help.</br>
   We would recommend to use Keras, because all packages are installed on your environment. </br>
 - If you want to have a bit more support look into the folder for your problem. There you will find an example of a suitable NN for your problem.
