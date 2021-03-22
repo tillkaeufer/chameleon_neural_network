@@ -55,7 +55,7 @@ A detailed description of the data can be found in the folder data. </br>
 - Import the needed packages
 - Import the data
 - Scale your data
-- Import a ML technique and adjust it
+- Import an ML technique and adjust it
 - Analyse the results
 - Start playing with different settings and techniques to find the best results
 
@@ -75,7 +75,7 @@ If you run into problems or want to check if you have done everything right, che
 Once you loaded the data you have to scale it. </br>
 In the folder 'Scaling' you find an explanation of different scaling methods and how to apply them.
 Feel free to play around and visualize how your data is changing if you apply a scaler. </br>
-Again, in the folder named after your problem you find a working example of scaling the data. </br>
+Again, in the folder named after your problem, you find a working example of scaling the data. </br>
 
 
 ## 3: Applying Machine Learning
@@ -86,16 +86,13 @@ We focus on Neural Networks in this session, but you can also run Random Forests
 ### 3.1: Build/train a Neural Network
 
 Depending on your level of confidence you can take different approaches.
-- https://keras.io/guides/functional_api/ </br>
-  https://victorzhou.com/blog/keras-neural-network-tutorial/ </br>
-  These are two general tutorial how to build Neural Networks. Try to create your own network, which can solve your chosen problem. </br>
-  There are many different ways to do that, discussing your approaches in your group or searching on the internet can help.</br>
-  We would recommend to use Keras, because all packages are installed on your environment. </br>
-- If you want to have a bit more support look into the folder for your problem. There you will find an example of a suitable NN for your problem.
+- Have a look at the slides (Presentation.pdf), where a detailed explanation is given. </br>
+  There are also a lot of links to more material if you have any questions. Also, google seems to be a python/NN expert.
+- If you want to have more support look into the folder for your problem. There you will find an example of a suitable NN for your problem.
 
 ### 3.2: Optimize your network
 
-If you have a working network, you can change the different settings and have a look how your results change. Try to find the best network for your problem.
+If you have a working network, you can change the different settings and have a look at how your results change. Try to find the best network for your problem.
 
 ### 3.3: Optional: Build/ train a Random Forest
 
@@ -110,7 +107,11 @@ This is especially important, to evaluate your results. Think of useful ways to 
 
 # Other useful things
 
-If github has a problem with opening notebooks online there are two sollutions for it.
+## .ipynb problems
+If github has a problem with opening notebooks online there are two solutions for it.
 - Download the repository and open it with your jupyter notebook
 - Go to https://nbviewer.jupyter.org/github/tillkaeufer/chameleon_neural_network/tree/master/ </br>
-  This is an independent side, where it should be possible to open all .ipynb files
+  This is an independent site, where it should be possible to open all .ipynb files
+  
+## Complete notebooks
+If nothing wants to work, in the folder 'Complete Notebooks' are working notebooks to solve both problems. You can just execute them and play around with the different hyperparameters.
