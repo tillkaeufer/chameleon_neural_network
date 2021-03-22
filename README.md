@@ -108,4 +108,9 @@ A list of methods can be found here: https://scikit-learn.org/stable/supervised_
 This point is hard to separate from all previous steps. During the whole process you probably want to see what is going on. </br>
 This is especially important, to evaluate your results. Think of useful ways to evaluate the results and visualize them. If you need a bit of inspiration, in the folder 'Visualization' there are a few useful tools.
 
+# Other useful things
 
+If github has a problem with opening notebooks online there are two sollutions for it.
+- Download the repository and open it with your jupyter notebook
+- Go to https://nbviewer.jupyter.org/github/tillkaeufer/chameleon_neural_network/tree/master/ </br>
+  This is an independent side, where it should be possible to open all .ipynb files
