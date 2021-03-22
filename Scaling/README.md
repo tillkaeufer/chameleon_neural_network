@@ -49,3 +49,5 @@ This can be done by:
 > X_train = scaler.inverse_transform(X_train)
 
 Be careful to that 'scaler' is actually the right scaler. Therefore, it is good to give for scaler for the features another name than the target scaler.
+
+A list of Scalers and their explanations can be found at https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing.
