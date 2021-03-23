@@ -61,7 +61,10 @@ A detailed description of the data can be found in the folder data. </br>
 
 # Detailed Explanation
 
-Set up a notebook in which you want to solve your problem.
+Set up a notebook in which you want to solve your problem. </br>
+Windows: Open Anaconda Prompt and type in 'jupyter notebook'. This opens your browser. Go to the folder where you want to have your notebook and click on new+python3. </br>
+Linux/Mac: Same steps as Windows but you open your terminal and your anaconda environment.
+
 
 ## 1: Loading your data
 
