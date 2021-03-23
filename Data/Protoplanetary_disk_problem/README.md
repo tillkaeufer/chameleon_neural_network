@@ -8,7 +8,7 @@ X consists of 11 different parameters that are used to describe a model setup.
 
 They are (Parameter: Number):'Teff[K]':0, 'Lstar[Lsun]':1, 'fUV':2, 'Mdust[Msun]':3, 'inclination':4, 'Rin[AU]':5, 'Rout[AU]':6, 'epsilon':7, 'beta':8, 'settle':9, 'amin[mic]':10
 
-For some of them a logarithmic scale was applied.
+For some of them a logarithmic scale was applied (Parameter [0,1,2,3,5]).
 There are more parameters that describe a model in general, but these are the parameters that vary within the data.  
 
 ![Here you can see how X_train[0] looks like.](../../images/input_0.png) 
